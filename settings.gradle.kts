@@ -1,0 +1,2 @@
+rootProject.name = "JCLab21"
+
