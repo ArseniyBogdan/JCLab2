@@ -246,6 +246,7 @@ public class CustomArrayList<T> implements List<T> {
             return false;
         }
         List list = (List) obj;
+        if(list.size() != size) return false;
         for(int i = 0; i < size; i++){
             if (!list.get(i).equals(array[i])){
                 return false;
